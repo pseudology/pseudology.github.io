@@ -11,8 +11,11 @@ I'm a 20-year-old student currently studying Computer Science and Cybersecurity.
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/mehtaveer1603) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/veer--mehta) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/VeerMehta) 
 
 # 💻 Tech Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=plastic&logo=python&logoColor=ffdd54)
-![Shell Script](https://img.shields.io/badge/shell_script-%23121011?style=plastic&logo=gnu-bash&logoColor=white)
+
+
+<i class="devicon-androidstudio-plain colored"></i>
+          
+
 
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=pseudology&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
@@ -30,4 +33,6 @@ I'm a 20-year-old student currently studying Computer Science and Cybersecurity.
 
 ---
 [![](https://visitcount.itsvg.in/api?id=pseudology&icon=0&color=1)](https://visitcount.itsvg.in)
+
+
 
