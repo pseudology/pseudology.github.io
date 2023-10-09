@@ -1,7 +1,7 @@
 ---
 ---
 
-@import 'style';
+@import '{{ site.theme }}';
 
 /* Remove underline and blue color for all links */
 .icon-link {
