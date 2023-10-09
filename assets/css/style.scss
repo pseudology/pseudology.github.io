@@ -4,7 +4,7 @@
 @import '{{ site.theme }}';
 
 /* Remove underline and blue color for all links */
-.icon-link {
+.temp-link {
   text-decoration: none;
   color: inherit;
   transition: transform 0.2s, font-size 0.2s;
@@ -13,10 +13,12 @@
   position: relative;
 
 }
-
+/* .post-tail-wrapper .post-meta a:not(:hover), .post-content a:not(.img-link){
+  border-bottom: 0px solid var(--link-underline-color);
+} */
 
 /* Add hover effect: enlarge and increase spacing */
-.icon-link:hover {
+.temp-link:hover {
   text-decoration: none;
   color: inherit;
   transform: scale(1.05); /* Increase size on hover */
@@ -26,10 +28,10 @@
   border-bottom: none; 
 }
 
-/* Enlarge the icons on hover */
-.icon-link:hover .icon {
+/* Enlarge the temps on hover */
+.temp-link:hover .temp {
   text-decoration: none;
-  transform: scale(1.2); /* Increase the size of the icons on hover */
+  transform: scale(1.2); /* Increase the size of the temps on hover */
 }
 .skill-list {
   list-style: none;

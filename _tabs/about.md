@@ -22,19 +22,19 @@ Welcome to my digital Vault! I'm passionate about sharing knowledge through blog
 - 👯 I’m looking to collaborate on any interesting projects 
 - 💬 Ask me about cybersecurity 
 <div class="icon-container">
-  <a href="https://github.com/pseudology" class="icon-link">
+  <a href="https://github.com/pseudology" class="temp-link">
     <i class="fab fa-github icon"></i>
   </a>
-  <a href="https://dev.to/pseudology" class="icon-link">
+  <a href="https://dev.to/pseudology" class="temp-link">
     <i class="fab fa-dev icon"></i>
   </a>
-  <a href="https://www.linkedin.com/in/veer--mehta/" class="icon-link">
+  <a href="https://www.linkedin.com/in/veer--mehta/" class="temp-link">
     <i class="fab fa-linkedin icon"></i>
   </a>
-  <a href="https://twitter.com/Pseudology_" class="icon-link">
+  <a href="https://twitter.com/Pseudology_" class="temp-link">
     <i class="fab fa-twitter icon"></i>
   </a>
-  <a href="https://veerincyber.com" class="icon-link">
+  <a href="https://veerincyber.com" class="temp-link">
     <i class="fa fa-cloud icon"></i>
   </a>
 </div>
