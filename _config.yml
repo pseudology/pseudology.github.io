@@ -23,7 +23,7 @@ title: Veer Mehta # the main title
 tagline: Personal Vault # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  I'm passionate about sharing knowledge through blogs, dissecting challenges in cybersecurity boxes, diving into research projects, and offering insightful analysis. Join me on this journey of exploration and discovery
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://veerincyber.com"
@@ -65,7 +65,7 @@ google_analytics:
 #
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
-#
+# 
 theme_mode: # [light|dark]
 
 # The CDN endpoint for images.
