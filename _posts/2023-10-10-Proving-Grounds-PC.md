@@ -3,7 +3,7 @@ layout: post
 title: Proving Grounds Box - PC
 image: /assets/img/boxes/hacker.jpg
 categories: [Pentesting, Proving Grounds]
-tags: [Cybersecurity,Hacking,PenetrationTesting,CTF (Capture The Flag),ProvingGrounds,Walkthrough,PrivilegeEscalation,Vulnerability,Exploit,RPCService]
+tags: [Hacking,PenetrationTesting,CTF (Capture The Flag),ProvingGrounds,Walkthrough,PrivilegeEscalation,Vulnerability,Exploit,RPCService]
 
 ---
 
