@@ -122,7 +122,6 @@ Welcome to my digital Vault! I'm passionate about sharing knowledge through blog
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=pseudology&show_icons=true)  
 
-
 [![](https://visitcount.itsvg.in/api?id=pseudology&icon=0&color=1)](https://visitcount.itsvg.in)
 
 
