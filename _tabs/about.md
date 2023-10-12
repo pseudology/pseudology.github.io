@@ -113,16 +113,14 @@ Welcome to my digital Vault! I'm passionate about sharing knowledge through blog
         <img src="https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white" alt="PyCharm">
     </li>
     <li class="skill-list-item">
-    <img src="https://img.shields.io/badge/Vulnerability%20Assessment-FF5733?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACtElEQVR42mL8//8/Ay9iJjsBxgCDBjwRZAyFtYx/gME5PBnDD7IFERw8xk+CCBGJ8YAwvNgmCYbwJgzpMEc0PQRgRAgMGDR1gjADcBBGw7Bgg0gM5oPQIxBgNwIYgMOMGA0AArEGAHvEwOBADU4RABiL+DNCPwKUMqEGAGD8MQ9GBzAEYBQOBCCN8YxlABgI/H4LHoNccEAEFtAAEcClwPQKsYBBJiIMBIkCRBA8SfQCayEBga9gRABgOYjBNQgRJggVhwP7AC7ggxAA6iMNIgYECyFVCwC0QJYVMBmMkmnCIiC8G9hBBJBDEQBMAOwBOEwDBAAagMQBgLM6ARsEAQhRA1QA2CIAAYYABCAECEBQRgIBRAAwJiIQCGAlQAYQwIqACDIQXoK4EMwAIA0wQhACGFNwBBgMCZgMEI" >
+    <img src="https://img.shields.io/badge/Vulnerability%20Assessment-FF5733?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACtElEQVR42mL8//8/Ay9iJjsBxgCDBjwRZAyFtYx/gME5PBnDD7IFERw8xk+CCBGJ8YAwvNgmCYbwJgzpMEc0PQRgRAgMGDR1gjADcBBGw7Bgg0gM5oPQIxBgNwIYgMOMGA0AArEGAHvEwOBADU4RABiL+DNCPwKUMqEGAGD8MQ9GBzAEYBQOBCCN8YxlABgI/H4LHoNccEAEFtAAEcClwPQKsYBBJiIMBIkCRBA8SfQCayEBga9gRABgOYjBNQgRJggVhwP7AC7ggxAA6iMNIgYECyFVCwC0QJYVMBmMkmnCIiC8G9hBBJBDEQBMAOwBOEwDBAAagMQBgLM6ARsEAQhRA1QA2CIAAYYABCAECEBQRgIBRAAwJiIQCGAlQAYQwIqACDIQXoK4EMwAIA0wQhACGFNwBBgMCZgMEI" alt="Vulnerability Assessment">
     
 </li>
 </ul>
 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=pseudology&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+![Github Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=pseudology&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=pseudology&show_icons=true)  
 
-![](https://visitcount.itsvg.in/api?id=pseudology&icon=0&color=1)](https://visitcount.itsvg.in)
-
-
-
+---
+[![](https://visitcount.itsvg.in/api?id=pseudology&icon=0&color=0)](https://visitcount.itsvg.in)
