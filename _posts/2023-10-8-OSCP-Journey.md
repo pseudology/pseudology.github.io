@@ -1,7 +1,7 @@
 ---
 layout: post
 title: OSCP Journey
-image: https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/82700692
+image: (https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/82700692){: width="1200" height="630" }
 comments: True
 categories: [Pentesting, OSCP]
 tags: [pentesting, Red teaming, cybersecurity, offsec] 
