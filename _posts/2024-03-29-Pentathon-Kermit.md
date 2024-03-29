@@ -8,7 +8,7 @@ tags: [pentesting, Red teaming, cybersecurity, offsec]
 
 ---
 
-# /assets/img/Kermit
+# Kermit
 
 # Pentathon 2024
 
@@ -23,7 +23,7 @@ An Nmap scan was was conducted against the machine in question. Through this, it
 
 → On visiting the webpage, this page was found.
 
-![Untitled](/assets/img//assets/img/Kermit%20dcd423d39b634bbaa8368d7f4126fd32/Untitled.png)
+![Untitled](/assets/img/Kermit%20dcd423d39b634bbaa8368d7f4126fd32/Untitled.png)
 
 Submitting anything on this page, we get redirected to a `complaints.php page`. 
 
@@ -65,7 +65,7 @@ We are then able to access the user flag.
 **Now we have to escalate to root, I found that another webpage has been hosted on
 localhost:8000,**
 
-![Untitled](//assets/img/Kermit%20dcd423d39b634bbaa8368d7f4126fd32/Untitled%206.png)
+![Untitled](/assets/img/Kermit%20dcd423d39b634bbaa8368d7f4126fd32/Untitled%206.png)
 
 but since it is hosted on localhost, we have to perform port forwarding to our machine.
 
