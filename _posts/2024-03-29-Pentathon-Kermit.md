@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Kermit Box Walkthrough
-image: https://live.staticflickr.com/65535/53619367834_cdc6d786b1_m.jpg
+image: https://live.staticflickr.com/65535/53619367834_a0237cef68_o.png
 comments: True
 categories: [Pentesting, CTF]
 tags: [pentesting, Red teaming, cybersecurity, offsec] 
