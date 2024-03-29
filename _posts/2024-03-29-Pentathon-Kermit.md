@@ -1,7 +1,7 @@
 ---
 layout: post
-title: /assets/img/Kermit Box Walkthrough
-image: https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/82700692
+title: Kermit Box Walkthrough
+image: https://live.staticflickr.com/65535/53619367834_cdc6d786b1_q.jpg
 comments: True
 categories: [Pentesting, CTF]
 tags: [pentesting, Red teaming, cybersecurity, offsec] 
