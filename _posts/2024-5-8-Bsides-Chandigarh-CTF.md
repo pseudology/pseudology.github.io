@@ -1,15 +1,15 @@
 ---
 layout: post
-title: /assets/img/Bsides Chandigarh CTF
-image: /assets/images/Chandigarh/php.jpg
+title: Bsides Chandigarh CTF
+image: /assets/img/Chandigarh/pfp.jpg
 comments: True
 categories: [Pentesting, CTF]
 tags: [/assets/img/Bsides, CTF, cybersecurity] 
 
 ---
-# /assets/img/Bsides Chandigarh CTF
+# Bsides Chandigarh CTF
 
-## Challenge 1 : Sanity Check
+## **Challenge 1 : Sanity Check**
 
 ![Untitled](/assets/img/Bsides%20Chandigarh%20CTF%20a7731956d23c48518d7b48958789f1ea/Untitled.png)
 
@@ -17,7 +17,7 @@ Base64 encoded string was given, just had to decode it using base64 -d or online
 
 ![Untitled](/assets/img/Bsides%20Chandigarh%20CTF%20a7731956d23c48518d7b48958789f1ea/Untitled%201.png)
 
-## Challenge 2: Fix My Pdf
+## **Challenge 2: Fix My Pdf**
 
 We first use wget to download a corrupted pdf and then use ghostscript to try and repair it
 
@@ -49,9 +49,9 @@ The decrypt.txt was a simple python script which gave us the flag on running it.
 
 ![Untitled](/assets/img/Bsides%20Chandigarh%20CTF%20a7731956d23c48518d7b48958789f1ea/Untitled%207.png)
 
-## Challenge 3 : Crypto
+## **Challenge 3 : Crypto**
 
-```bash
+```python
 
 from math import prod
 
@@ -79,7 +79,7 @@ Basically shamir sharing secrets, we had to get an integer output in the crac{fl
 
 ![Untitled](/assets/img/Bsides%20Chandigarh%20CTF%20a7731956d23c48518d7b48958789f1ea/Untitled%208.png)
 
-## Challenge 4: Fruit SLice
+## **Challenge 4: Fruit SLice**
 
 I opened the file in ghidra and upon analysis i came across these hardcoded hex values, i took these to cyber chef.
 
@@ -89,7 +89,7 @@ Then just Convert from hex to characters and then reverse it
 
 ![Untitled](/assets/img/Bsides%20Chandigarh%20CTF%20a7731956d23c48518d7b48958789f1ea/Untitled%2010.png)
 
-## Challenge 5: My Bank
+## **Challenge 5: My Bank**
 
 Used [dcode.fr](http://dcode.fr) and validated the the isbns
 
@@ -101,7 +101,7 @@ Then validated the lists. [https://www.dcode.fr/isbn-book-code](https://www.dcod
 
 Now made a python script to get my flag
 
-```bash
+```python
 char = '✘'
 
 correct = []
@@ -134,13 +134,13 @@ This was a very fun challenge, i first just randomly clicked enter and also iter
 
 ![Untitled](/assets/img/Bsides%20Chandigarh%20CTF%20a7731956d23c48518d7b48958789f1ea/Untitled%2013.png)
 
-Now we know that flag format is crac{, so i used password filter to check for the same. And boom once again we get :
+Now we know that flag format is `crac{`, so i used password filter to check for the same. And boom once again we get :
 
 ![Untitled](/assets/img/Bsides%20Chandigarh%20CTF%20a7731956d23c48518d7b48958789f1ea/Untitled%2014.png)
 
-This time we only got this user which means the flag is there and we must bruteforce it, i made a python script to do so. For some reason `‘{’` was not appending properly in my script so i ran it till infinity till my password did not increment anymore and then manually added the final 2 }}
+This time we only got this user which means the flag is there and we must bruteforce it, i made a python script to do so. For some reason `‘{’` was not appending properly in my script so i ran it till infinity till my password did not increment anymore and then manually added the final 2 `‘}}’`
 
-```bash
+```python
 import requests
 import string
 
@@ -160,7 +160,7 @@ headers = {
 }
 
 # Initial password
-password = 'crac{{ho'
+password = "crac\{\{ho"
 chars = ''.join([chr(i) for i in range(32, 127)])
 # Iterate over alphanumeric characters
 while True:
@@ -176,7 +176,9 @@ while True:
             print(f"Password: {password}")
 
 ```
-
+<aside>
+⚠️ In the code above please remove the '\' before and after the parantheses in the line `password=` i had to add them there because of double parantheses rendering issues.
+</aside>
 ![Untitled](/assets/img/Bsides%20Chandigarh%20CTF%20a7731956d23c48518d7b48958789f1ea/Untitled%2015.png)
 
 At this point it started iteration again, and again which meant that we had found all the characters all that was left was to add the remaining `‘}}’`
