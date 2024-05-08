@@ -176,9 +176,9 @@ while True:
             print(f"Password: {password}")
 
 ```
-<aside>
-⚠️ In the code above please remove the '\' before and after the parantheses in the line `password=` i had to add them there because of double parantheses rendering issues.
-</aside>
+> In the code above please remove the `\` before and after the parantheses in the line `password=` i had to add them there because of double parantheses rendering issues.
+{: .prompt-warning }
+
 ![Untitled](/assets/img/Bsides%20Chandigarh%20CTF%20a7731956d23c48518d7b48958789f1ea/Untitled%2015.png)
 
 At this point it started iteration again, and again which meant that we had found all the characters all that was left was to add the remaining `‘}}’`
