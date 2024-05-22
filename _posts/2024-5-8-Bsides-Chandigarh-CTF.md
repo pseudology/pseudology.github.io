@@ -2,7 +2,6 @@
 layout: post
 title: Bsides Chandigarh CTF
 image: /assets/img/Chandigarh/pfp.jpg
-comments: True
 categories: [Pentesting, CTF]
 tags: [/assets/img/Bsides, CTF, cybersecurity] 
 
@@ -72,7 +71,7 @@ shares = [(1, 567683), (2, 570399), (3, 115050)]
 
 # Recover secret
 secret = recover_secret(shares)
-print(f"CRAC{{{secret}}}")
+print(f"CRAC{/{/{secret}/}/}")
 ```
 
 Basically shamir sharing secrets, we had to get an integer output in the crac{flag}. I used lagrange interpolation manually instead of using libraries because i was facing some errors.
@@ -183,7 +182,9 @@ while True:
 
 At this point it started iteration again, and again which meant that we had found all the characters all that was left was to add the remaining `‘}}’`
 
-`Password: crac{{hohch0c73747d0e0e0wwissag}}`
+`Password: crac{ {hohch0c73747d0e0e0wwissag} }`
+
+**(Remove The Spaces, i added them to prevent jekyll from causing erros)**
 
 `flag: CRAC{hohch0c73747d0e0e0wwissag}`
 
